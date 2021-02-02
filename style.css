@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+header h1{
+    font-size: 1.8rem;
+    margin-left: 4vw;
+}
+header nav{
+    margin-right: 4vw;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.2;
+    color: #707070;
+    margin-left: 2vw;
+}
+header a:hover{
+    color: black;
+    font-weight: bold;
+}
+.sectionLaranja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 80vh;
+    background-image: url(assets/laranja.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sectionLaranja h1{
+    font-size: 3rem;
+    margin-bottom: 5vh ;
+    margin-left: 10vw;
+    font-weight: bold;
+    color: white;
+}
+.sectionLaranja a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10vw;
+}
+.sectionMenu{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionMenu a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+}
+.sectionMenu a:hover{
+    font-weight: bold;
+    color: red;
+}
+.sectionImages{
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sectionImages img{
+    width: 20vw;
+    margin: 10px
+}
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+footer img{
+    width: 30px;
+    margin:10px;
+}
+.divFooter-text{
+    display: flex;
+}
+footer h2{
+    font-weight: bold;
+}
+footer p{
+    width: 50vw;
+    margin-left: 30px;
+}
